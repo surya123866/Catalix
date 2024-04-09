@@ -1,4 +1,4 @@
-Catalix App README
+#Catalix App README
 Welcome to the Catalix App repository for EazeTechLabs Pvt Ltd!
 
 Overview
