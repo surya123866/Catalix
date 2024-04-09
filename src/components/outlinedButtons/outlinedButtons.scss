@@ -1,0 +1,42 @@
+.outlinedButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 9.83px;
+  opacity: 1;
+
+  .filled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 17.7px;
+    font-weight: 500;
+    line-height: 19.67px;
+    text-align: center;
+    border-radius: 98.33px;
+    opacity: 1;
+    background-color: #2f667f;
+    color: #ffffff;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .nonFilled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 17.7px;
+    font-weight: 500;
+    line-height: 19.67px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 98.33px;
+    border: solid 0.98px #2f667f;
+    color: #6c6f6b;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+  }
+}

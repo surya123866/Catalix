@@ -1,0 +1,42 @@
+/* header.scss */
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+
+  .inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 407.95px; /* Width adjusted */
+    height: 34.67px; /* Height adjusted */
+    gap: 6.19px;
+    border-radius: 2.48px 0px 0px 0px;
+    border: solid 0.62px #79747e; /* Border adjusted */
+    opacity: 1; /* Corrected opacity value */
+
+    .searchInput {
+      background-color: transparent;
+      outline: none;
+      border: none;
+      width: calc(100% - 20px);
+    }
+  }
+
+  .menuIconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      margin-right: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.3);
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.transformationContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  .timeLineContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .timeLineItem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+    }
+  }
+  .styledHr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #539bbb;
+    position: relative;
+    margin: 0 5px;
+  }
+
+  .styledHr::before,
+  .styledHr::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 3px;
+    background-color: #539bbb;
+  }
+
+  .styledHr::before {
+    left: 0;
+  }
+
+  .styledHr::after {
+    right: 0;
+  }
+
+  .saveButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 17.7px;
+    font-weight: 500;
+    line-height: 19.67px;
+    text-align: center;
+    border-radius: 98.33px;
+    opacity: 1;
+    background-color: #2f667f;
+    color: #ffffff;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+  }
+}

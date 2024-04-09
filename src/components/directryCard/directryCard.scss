@@ -1,0 +1,53 @@
+.directoryCardsContainer {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+
+.sectionContainer {
+  width: 289.63px;
+  height: 193.45px;
+  border-radius: 10px;
+  padding: 21.61px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px 0px #6d6d6d80;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.61px;
+  text-align: left;
+  color: #000000;
+}
+
+.iterationsTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.eachIteration {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #000000;
+}
+
+.eachIteration p {
+  font-family: "Poppins";
+  font-size: 15.13px;
+  font-weight: 300;
+  line-height: 21.61px;
+}
+
+.eachIteration p:nth-child(2) {
+  font-weight: 600;
+  text-align: right;
+}

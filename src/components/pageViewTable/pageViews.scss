@@ -1,0 +1,41 @@
+.tableHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 35.56px;
+  box-shadow: 0px 3.89px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  width: 1050px;
+  .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 338.1px;
+    height: 23.21px;
+    gap: 0px;
+    border: 0.77px solid transparent;
+    opacity: 1;
+
+    .filterButton {
+      width: 55px;
+      height: 16px;
+      gap: 0px;
+      opacity: 1;
+      font-family: "Poppins";
+      font-size: 10.83px;
+      font-weight: 500;
+      line-height: 15.47px;
+      text-align: center;
+      border: 2px solid #d9dadb;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+    }
+  }
+  .tableFiltersContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

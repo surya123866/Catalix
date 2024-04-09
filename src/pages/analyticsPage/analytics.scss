@@ -1,0 +1,16 @@
+.contentBodyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  .chartsContainer {
+    display: flex;
+    gap: 65px;
+  }
+  .directryCardsContainer {
+    display: flex;
+    gap: 15px;
+  }
+}
