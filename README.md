@@ -1,8 +1,23 @@
-# React + Vite
+Catalix is a React app developed using Vite as the build tool. It provides a minimal setup to quickly get started with React development, featuring hot module replacement (HMR) and ESLint integration.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Getting Started
+To start developing with Catalix, follow these steps:
 
-Currently, two official plugins are available:
+Clone the repository:
+git clone <repository-url>
+Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install
+Start the development server:
+
+npm run dev
+Open your browser and navigate to http://localhost:3000 to view the app.
+
+Official Plugins
+Catalix utilizes two official plugins for React:
+
+@vitejs/plugin-react: Uses Babel for Fast Refresh.
+@vitejs/plugin-react-swc: Uses SWC for Fast Refresh.
+Additional Information
+EazeTechLabs Pvt Ltd: This app is developed by EazeTechLabs Pvt Ltd.
+URL: https://catalix-87cda.web.app/
